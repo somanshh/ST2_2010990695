@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+        <section class="sub-header"> 
+                    <nav>
+                        <a href="index.html"><img id="logoCU" src="images/logoCu.png"></a>
+                        <div class="nav-links" id="navLinks">
+
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="course.html">Course</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+                    </nav>
+
+            <h1>Our Certificate & Online Program For 2022</h1>
+            
+        </section>
+
+<!-- -------------blog page----------- -->
+<section class="blog">
+    <div class="blog-left">
+        <img src="images/certificate.jpg" alt="">
+        <h2>Our Certificate & Online Program For 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident aliquid? Veritatis numquam doloremque exercitationem at totam similique dicta explicabo. Quos corrupti vel adipisci fuga, fugiat qui cum molestias maiores.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident aliquid? Veritatis numquam doloremque exercitationem at totam similique dicta explicabo. Quos corrupti vel adipisci fuga, fugiat qui cum molestias maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sit et ipsam molestiae asperiores voluptates atque ab cum illo necessitatibus. Magnam molestias placeat dolores quod. Neque quaerat eaque repellendus vero, quam maxime inventore eum voluptas at, perferendis odit soluta! Natus id laborum quae modi reiciendis minima, nihil neque error dolorum, maxime ut temporibus molestias debitis ad ratione provident a quam!</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident aliquid? Veritatis numquam doloremque exercitationem at totam similique dicta explicabo. Quos corrupti vel adipisci fuga, fugiat qui cum molestias maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, veniam accusamus quidem perferendis inventore, iusto atque beatae vero aspernatur, quod excepturi! Placeat quam quo assumenda in fugiat tenetur ratione, unde sint laboriosam inventore odit aliquam delectus mollitia ut? Voluptatibus, ullam explicabo dicta quis sapiente distinctio libero. Suscipit consectetur similique voluptate.</p><br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident aliquid? Veritatis numquam doloremque exercitationem at totam similique dicta explicabo. Quos corrupti vel adipisci fuga, fugiat qui cum molestias maiores.</p>
+    </div>
+
+    <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span> Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span> Data Science</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span> Computer Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>BMC</span> <span>30</span>
+            </div>
+            <div>
+                <span>BBA</span> <span>40</span>
+            </div>
+    </div>
+   
+</section>
+<!-- <div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Name">
+        <textarea  rows="5" placeholder="Your Review/Comment"></textarea>
+    </form>
+</div> -->
+
+
+<!----------Footer---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores corrupti laudantium eum <br> veritatis minus consectetur vitae aliquid veniam tempora quod cumque aperiam odio.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</section>  
+
+<!----------JavaScript---------->
+        <script>
+                var navLinks = document.getElementById("navLinks");
+
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+</body>
+</html>
